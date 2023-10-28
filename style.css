@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Circular Std Bold";
+}
+.sidebar{
+    flex:2;
+    background-color: #000000;
+}
+.hero_section{
+    /* background-color: #819C96; */
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(140,169,162,1));
+    flex:10;
+}
+#grad{
+    background: linear-gradient(to top, black, #738B86);
+}
+.player{
+    position: fixed;
+    bottom: 0px;
+    background-color: #181818;
+    height:70px;
+    width: 100%;
+}
+.player>div{
+    margin-inline: 5px;
+}
+.color-white{
+    color: white;
+}
+.player-control>img{
+    height:55px;
+    width: 600px;
+}
+.herosec1{
+    flex:2;
+}
+.herosec2{
+    flex:5;
+}
+.herosec2>img{
+    margin-inline: 10px;
+}
+#text1{
+    font-size: 15px;
+    font-weight: 400;
+}
+#text2{
+    font-size: 12px;
+    font-weight: 400;
+}
+.song-details>*{
+    margin-right: 10px;
+}
+.song-text1{
+    font-size: 15px;
+    font-weight: 400;
+}
+.song-text2{
+    font-size: 14px;
+    font-weight: 300;
+}
+.song1{
+    background-color: #252726;
+    width:100%;
+}
+.songs{
+    background-color: #000000;
+}
+.song-div1>*{
+    margin-inline: 5px;
+}
+.line{
+    background-color: #000000;
+    padding-top:20px;
+    height:40px;
+}
+.line>span{
+    font-size: 12px;
+    font-weight: 300;
+}
+#title{
+    position: relative;
+    top:-23px;
+    left:20px;
+}
+#album{
+    position: relative;
+    top:-23px;
+    left:400px;
+}
+#date{
+    position: relative;
+    top:-23px;
+    left:650px;
+}
+#playlist{
+    font-size: 11px;
+    font-weight: 400;
+}
+#pop{
+    font-size: 60px;
+    font-weight: 700;
+}
+#loremtext{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 200;
+}
+#spotify{
+    font-size: 12px;
+    font-weight: 500;
+}
+.infotext{
+    font-size: 12px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 200;
+}
+.image{
+    padding-bottom: 100px;
+}
+.sidebar-playlist{
+    font-size: 12px;
+    font-weight: 300;
+}
+.home{
+    width:90%;
+    background-color: #282828;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:600px) {
+    .spotify-container{
+        flex-direction: column;
+    }
+    .image{
+        display: none;
+    }
+    .sidebar{
+        padding-bottom: 30px;
+    }
+    .player>.media,.player>.song-details{
+        display: none !important;
+    }
+    .player-control>img{
+        width:500px;
+    }
+}
